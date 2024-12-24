@@ -18,7 +18,9 @@ printf("%d is an Armstrong number.", num);
 else
 printf("%d is not an Armstrong number.", num);
 return 0;
-}
+} 
+
+
 Q2. WAP to read two integers and print their HCF (Highest Common Factor).
 #include <stdio.h>
 int main() {
@@ -34,6 +36,8 @@ hcf = i;
 printf("HCF of %d and %d is %d", num1, num2, hcf);
 return 0;
 }
+
+
 Q3. WAP to subtract two integers without using Minus (-) operator. (Hint Bitwise
 operator).
 #include <stdio.h>
@@ -44,6 +48,8 @@ b = 3;
 printf("Bitwise NOT: %d %d\n", ~a, ~b);
 return 0;
 }
+
+
 Q4. WAP to accept two integer numbers and swap them using 4 different methods
 in C
 language.
@@ -71,6 +77,8 @@ b = c;
 printf("After swapping a is %d and b is %d", a, b);
 return 0;
 }
+
+
 Q5. WAP to check whether number is Perfect Number or not.
 (To check perfect number, we have to find all divisors of that number and find their
 sum, if
@@ -92,6 +100,8 @@ printf("%d is not a perfect number", num);
 }
 return 0;
 }
+
+
 Q6. WAP to accept a coordinate point in an XY coordinate system and determine in
 which
 quadrant the coordinate point lies
@@ -113,6 +123,8 @@ printf("Point lies in fourth quadrant");
 }
 return 0;
 }
+
+
 Q7. WAP for Binary to Decimal conversion & Decimal to Binary for a given number as
 per
 user’s choice
@@ -136,6 +148,8 @@ printf("\n");
 }
 return 0;
 }
+
+
 Q9. WAP to print following Pyramid:
 0 0
 01 01
