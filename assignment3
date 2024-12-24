@@ -1,0 +1,35 @@
+Q. Make Calculator.
+#include <stdio.h>
+#include <math.h>
+int main() {
+int a, b;
+int sum, sub, prod, div;
+printf("Enter values of a and b respectively: ");
+scanf("%d %d", &a, &b);
+sum = a + b;
+sub = a - b;
+prod = a * b;
+div = a / b;
+int operator;
+printf("Enter\n1 for sum\n2 for sub\n3 for prod\n4 for div\n5 for sqrt\n6 for log10\n7 for
+natural log\n");
+printf("Enter operator: ");
+scanf("%d", &operator);
+if (operator == 1) {
+printf("%d\n", sum);
+} else if (operator == 2) {
+printf("%d\n", sub);
+} else if (operator == 3) {
+printf("%d\n", prod);
+} else if (operator == 4) {
+printf("%d\n", div);
+} else if (operator == 5) {
+printf("%f\n", sqrt(a));
+} else if (operator == 6) {
+printf("%f\n", log10(a));
+} else if (operator == 7) {
+printf("%f\n", log(a));
+} else {
+printf("Invalid operator\n");
+}
+return 0;
