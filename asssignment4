@@ -1,0 +1,19 @@
+Q. Rock-Paper-Scissors Game.
+#include <stdio.h>
+int main() {
+int a;
+printf("enter the value:");
+scanf("%d", &a);
+if (a == 33) {
+printf("computers choice: rock in users choice:scissors\n");
+printf("computer wins");
+} else if (a == 34 || a == 66) {
+printf("Computers choice: paper in users choice: rock\n");
+printf("computer wins");
+} else if (a == 67 || a == 100) {
+printf("Computers choice: scissors in users choice: paper\n");
+printf("Computer wins");
+} else {
+printf("invalid choice\n");
+}
+}
